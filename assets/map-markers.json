@@ -7,7 +7,7 @@
     "y": 50.3026,
     "w": 40,
     "h": 40,
-    "src": "images/arab.png",
+    "src": "assets/images/arab.png",
     "title": "Kabah"
   },
   {
@@ -18,7 +18,7 @@
     "y": 6.4464,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Zuqaq al nar"
   },
   {
@@ -29,7 +29,7 @@
     "y": 16.1972,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Bayt al azlam (House of Divination)"
   },
   {
@@ -40,7 +40,7 @@
     "y": 21.0726,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Qaraz (Qurt) Shops"
   },
   {
@@ -51,7 +51,7 @@
     "y": 33.3153,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Kathib (Kayd) market"
   },
   {
@@ -62,7 +62,7 @@
     "y": 33.9653,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Mawqif al baqar"
   },
   {
@@ -73,7 +73,7 @@
     "y": 35.3954,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Milk shops"
   },
   {
@@ -84,7 +84,7 @@
     "y": 31.3651,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Gold and silver shops"
   },
   {
@@ -95,7 +95,7 @@
     "y": 40.7019,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Khayyatin (Tailors)"
   },
   {
@@ -106,7 +106,7 @@
     "y": 39.8523,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Poultry market"
   },
   {
@@ -117,7 +117,7 @@
     "y": 36.2883,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Grain shops"
   },
   {
@@ -128,7 +128,7 @@
     "y": 64.5237,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Slave market"
   },
   {
@@ -139,7 +139,7 @@
     "y": 67.9848,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "The layl (night) market"
   },
   {
@@ -150,7 +150,7 @@
     "y": 65.0339,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Attarin (Perfume shops)"
   },
   {
@@ -161,7 +161,7 @@
     "y": 59.1162,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Attarin (Perfume shops)"
   },
   {
@@ -172,7 +172,7 @@
     "y": 67.3036,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Abu Bakr's shop"
   },
   {
@@ -183,7 +183,7 @@
     "y": 49.4478,
     "w": 34,
     "h": 34,
-    "src": "images/blacksmith.png",
+    "src": "assets/images/blacksmith.png",
     "title": "Blacksmith"
   },
   {
@@ -194,7 +194,7 @@
     "y": 54.4885,
     "w": 34,
     "h": 34,
-    "src": "images/shoemaker.png",
+    "src": "assets/images/shoemaker.png",
     "title": "Shoemaker"
   },
   {
@@ -205,7 +205,7 @@
     "y": 57.4053,
     "w": 34,
     "h": 34,
-    "src": "images/butcher.png",
+    "src": "assets/images/butcher.png",
     "title": "Butchers"
   },
   {
@@ -216,7 +216,7 @@
     "y": 44.8864,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Al suwayqah"
   },
   {
@@ -227,7 +227,7 @@
     "y": 70.1051,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Bayn al darayn"
   },
   {
@@ -238,7 +238,7 @@
     "y": 20.8559,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "The hazwarah market"
   },
   {
@@ -249,7 +249,7 @@
     "y": 30.1734,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Umm hardan well"
   },
   {
@@ -260,7 +260,7 @@
     "y": 33.4236,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Sunbulah (Ubayy) well"
   },
   {
@@ -271,7 +271,7 @@
     "y": 50.9751,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Al thurayya (Hafir) well"
   },
   {
@@ -282,7 +282,7 @@
     "y": 55.9588,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Al Jafr well"
   },
   {
@@ -293,7 +293,7 @@
     "y": 29.4585,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Al aswad well"
   },
   {
@@ -304,7 +304,7 @@
     "y": 44.1855,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Ajul well"
   },
   {
@@ -315,7 +315,7 @@
     "y": 44.4894,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Ramram (maramram) well"
   },
   {
@@ -326,7 +326,7 @@
     "y": 55.1976,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Zam zam well"
   },
   {
@@ -337,7 +337,7 @@
     "y": 54.398,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Umm Jalan well"
   },
   {
@@ -348,7 +348,7 @@
     "y": 61.2673,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Sajlah well"
   },
   {
@@ -359,7 +359,7 @@
     "y": 43.5559,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Al suwayqah well"
   },
   {
@@ -370,7 +370,7 @@
     "y": 69.0515,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Rumm well"
   },
   {
@@ -381,7 +381,7 @@
     "y": 82.6539,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Huwaytib well"
   },
   {
@@ -392,7 +392,7 @@
     "y": 91.1366,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Tawa well"
   },
   {
@@ -403,7 +403,7 @@
     "y": 96.1121,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Badhdhar well"
   },
   {
@@ -414,7 +414,7 @@
     "y": 78.0047,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Aluq well"
   },
   {
@@ -425,7 +425,7 @@
     "y": 82.9738,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Upper (Khumm) well"
   },
   {
@@ -436,7 +436,7 @@
     "y": 80.7692,
     "w": 32,
     "h": 32,
-    "src": "images/water-well.png",
+    "src": "assets/images/water-well.png",
     "title": "Ajyad well"
   },
   {
@@ -447,7 +447,7 @@
     "y": 79.7941,
     "w": 34,
     "h": 34,
-    "src": "images/market.png",
+    "src": "assets/images/market.png",
     "title": "Sheep market"
   }
 ]
