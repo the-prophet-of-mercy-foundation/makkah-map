@@ -1,0 +1,167 @@
+[
+  {
+    "type": "kabah",
+    "marketName": null,
+    "wellName": null,
+    "x": 41.5153,
+    "y": 50.3026,
+    "w": 40,
+    "h": 40,
+    "src": "assets/images/arab.png",
+    "title": "Kabah"
+  },
+  {
+    "type": "market",
+    "marketName": "Grain shops",
+    "wellName": null,
+    "x": 37.2385,
+    "y": 36.2883,
+    "w": 34,
+    "h": 34,
+    "src": "assets/images/market.png",
+    "title": "Grain shops"
+  },
+  {
+    "type": "market",
+    "marketName": "Abu Bakr's shop",
+    "wellName": null,
+    "x": 51.6725,
+    "y": 67.3036,
+    "w": 34,
+    "h": 34,
+    "src": "assets/images/market.png",
+    "title": "Abu Bakr's shop"
+  },
+  {
+    "type": "blacksmith",
+    "marketName": null,
+    "wellName": null,
+    "x": 55.3446,
+    "y": 49.4478,
+    "w": 34,
+    "h": 34,
+    "src": "assets/images/blacksmith.png",
+    "title": "Blacksmith"
+  },
+  {
+    "type": "shoemaker",
+    "marketName": null,
+    "wellName": null,
+    "x": 54.6411,
+    "y": 54.4885,
+    "w": 34,
+    "h": 34,
+    "src": "assets/images/shoemaker.png",
+    "title": "Shoemaker"
+  },
+  {
+    "type": "butcher",
+    "marketName": null,
+    "wellName": null,
+    "x": 56.5364,
+    "y": 57.4053,
+    "w": 34,
+    "h": 34,
+    "src": "assets/images/butcher.png",
+    "title": "Butchers"
+  },
+    {
+      "type": "market",
+      "marketName": "The layl (night) market",
+      "wellName": null,
+      "x": 45.1309,
+      "y": 67.9848,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "The layl (night) market"
+    },
+    {
+      "type": "market",
+      "marketName": "Sheep market",
+      "wellName": null,
+      "x": 85.0262,
+      "y": 79.7941,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "Sheep market"
+    },
+    {
+      "type": "market",
+      "marketName": "The hazwarah market",
+      "wellName": null,
+      "x": 31.0995,
+      "y": 20.8559,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "The hazwarah market"
+    },
+    {
+      "type": "market",
+      "marketName": "Gold and silver shops",
+      "wellName": null,
+      "x": 32.5131,
+      "y": 31.3651,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "Gold and silver shops"
+    },
+    {
+      "type": "market",
+      "marketName": "Al suwayqah",
+      "wellName": null,
+      "x": 60.7062,
+      "y": 44.8864,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "Al suwayqah"
+    },
+    {
+      "type": "market",
+      "marketName": "Poultry market",
+      "wellName": null,
+      "x": 40.9703,
+      "y": 39.8523,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "Poultry market"
+    },
+    {
+      "type": "market",
+      "marketName": "Attarin (Perfume shops)",
+      "wellName": null,
+      "x": 49.81,
+      "y": 65.0339,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "Attarin (Perfume shops)"
+    },
+    {
+      "type": "market",
+      "marketName": "Slave market",
+      "wellName": null,
+      "x": 43.8521,
+      "y": 64.5237,
+      "w": 34,
+      "h": 34,
+      "src": "assets/images/market.png",
+      "title": "Slave market"
+    },
+  {
+    "type": "well",
+    "marketName": null,
+    "wellName": "Zam zam well",
+    "x": 42.8821,
+    "y": 55.1976,
+    "w": 32,
+    "h": 32,
+    "src": "assets/images/water-well.png",
+    "title": "Zam zam well"
+  }
+]

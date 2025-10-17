@@ -2,69 +2,80 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Map — Model Descriptions</title>
-  <link rel="stylesheet" href="styles/style.css" />
-  <script src="scripts/main.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Map — Model Descriptions</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/main.js" defer></script>
 </head>
 
 <body>
-  <div id="map-container">
+<div id="map-container">
     <img id="base-map" src="assets/images/makkahs-markets-wells.png" alt="Map Base" />
-  </div>
+</div>
+<div id="toolSidebar">
+    <div class="tool-icon" data-tool="kabah" title="Kabah">
+        <div class="icon-container">
+            <img class="icon" src="assets/images/kaabah.png" alt="Kabah" />
+        </div>
+        <span class="tooltip">Kabah</span>
+    </div>
+    <div class="tool-icon" data-tool="well" title="Wells">
+        <div class="icon-container">
+            <img class="icon" src="assets/images/water-well.png" alt="Wells" />
+        </div>
+        <span class="tooltip">Wells</span>
+    </div>
+    <div class="tool-icon" data-tool="market" title="Markets">
+        <div class="icon-container">
+            <img class="icon" src="assets/images/market.png" alt="Markets" />
+        </div>
+        <span class="tooltip">Markets</span>
+    </div>
+    <div class="tool-icon" data-tool="shoemaker" title="Shoemaker">
+        <div class="icon-container">
+            <img class="icon" src="assets/images/shoemaker.png" alt="Shoemaker" />
+        </div>
+        <span class="tooltip">Shoemaker</span>
+    </div>
+    <div class="tool-icon" data-tool="blacksmith" title="Blacksmith">
+        <div class="icon-container">
+            <img class="icon" src="assets/images/blacksmith.png" alt="Blacksmith" />
+        </div>
+        <span class="tooltip">Blacksmith</span>
+    </div>
+    <div class="tool-icon" data-tool="butcher" title="Butchers">
+        <div class="icon-container">
+            <img class="icon" src="assets/images/butcher.png" alt="Butchers" />
+        </div>
+        <span class="tooltip">Butchers</span>
+    </div>
+</div>
 
-  <div id="toolSidebar">
-    <label class="tool-checkbox">
-      <input type="checkbox" id="chkKabah" data-tool="kabah" checked />
-      <img class="icon" src="assets/images/arab.png" alt="Kabah" /><span>Kabah</span>
-    </label>
-    <label class="tool-checkbox">
-      <input type="checkbox" id="chkWells" data-tool="well" checked />
-      <img class="icon" src="assets/images/water-well.png" alt="Wells" /><span>Wells</span>
-    </label>
-    <label class="tool-checkbox">
-      <input type="checkbox" id="chkMarkets" data-tool="market" checked />
-      <img class="icon" src="assets/images/market.png" alt="Markets" /><span>Markets</span>
-    </label>
-    <label class="tool-checkbox">
-      <input type="checkbox" id="chkShoemaker" data-tool="shoemaker" checked />
-      <img class="icon" src="assets/images/shoemaker.png" alt="Shoemaker" /><span>Shoemaker</span>
-    </label>
-    <label class="tool-checkbox">
-      <input type="checkbox" id="chkBlacksmith" data-tool="blacksmith" checked />
-      <img class="icon" src="assets/images/blacksmith.png" alt="Blacksmith" /><span>Blacksmith</span>
-    </label>
-    <label class="tool-checkbox">
-      <input type="checkbox" id="chkButcher" data-tool="butcher" checked />
-      <img class="icon" src="assets/images/butcher.png" alt="Butchers" /><span>Butchers</span>
-    </label>
-  </div>
-
-  <div id="menu">
+<div id="menu">
     <div class="controls">
-      <button class="btn" id="clearAll">Clear all</button>
-      <button class="btn" id="exportBtn">Export JSON</button>
-      <button class="btn" id="importBtn">Import JSON</button>
-      <input id="importFile" type="file" accept="application/json" style="display: none" />
+        <button class="btn" id="clearAll">Clear all</button>
+        <button class="btn" id="exportBtn">Export JSON</button>
+        <button class="btn" id="importBtn">Import JSON</button>
+        <input id="importFile" type="file" accept="application/json" style="display: none" />
     </div>
-  </div>
+</div>
 
-  <div id="hint">
+<div id="hint">
     Click any placed marker to open its description or image.
-  </div>
-  <div id="saved" class="">Saved</div>
+</div>
+<div id="saved" class="">Saved</div>
 
-  <!-- Modal -->
-  <div id="modal" aria-hidden="true">
+<!-- Modal -->
+<div id="modal" aria-hidden="true">
     <div id="modalContent" role="dialog" aria-modal="true">
-      <div id="modalHeader">
-        <div id="modalTitle"></div>
-        <button id="modalClose" aria-label="Close">✕</button>
-      </div>
-      <div id="modalBody"></div>
+        <div id="modalHeader">
+            <div id="modalTitle"></div>
+            <button id="modalClose" aria-label="Close">✕</button>
+        </div>
+        <div id="modalBody"></div>
     </div>
-  </div>
+</div>
 
 </body>
 
