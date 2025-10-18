@@ -1,82 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Interactive Map — Model Descriptions</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <script src="scripts/main.js" defer></script>
-</head>
+    <title>The Prophet of Mercy Maps</title>
+    <style>
+      /* Islamic-inspired landing page styles */
+      :root {
+        --islamic-green: #0d6e2e;
+        --gold: #d4af37;
+        --sand: #f5f5dc;
+        --navy: #1e3a8a;
+        --cream: #fefae0;
+      }
 
-<body>
-<div id="map-container">
-    <img id="base-map" src="assets/images/makkahs-markets-wells.png" alt="Map Base" />
-</div>
-<div id="toolSidebar">
-    <div class="tool-icon" data-tool="kabah" title="Kabah">
-        <div class="icon-container">
-            <img class="icon" src="assets/images/kaabah.png" alt="Kabah" />
-        </div>
-        <span class="tooltip">Kabah</span>
-    </div>
-    <div class="tool-icon" data-tool="well" title="Wells">
-        <div class="icon-container">
-            <img class="icon" src="assets/images/water-well.png" alt="Wells" />
-        </div>
-        <span class="tooltip">Wells</span>
-    </div>
-    <div class="tool-icon" data-tool="market" title="Markets">
-        <div class="icon-container">
-            <img class="icon" src="assets/images/market.png" alt="Markets" />
-        </div>
-        <span class="tooltip">Markets</span>
-    </div>
-    <div class="tool-icon" data-tool="shoemaker" title="Shoemaker">
-        <div class="icon-container">
-            <img class="icon" src="assets/images/shoemaker.png" alt="Shoemaker" />
-        </div>
-        <span class="tooltip">Shoemaker</span>
-    </div>
-    <div class="tool-icon" data-tool="blacksmith" title="Blacksmith">
-        <div class="icon-container">
-            <img class="icon" src="assets/images/blacksmith.png" alt="Blacksmith" />
-        </div>
-        <span class="tooltip">Blacksmith</span>
-    </div>
-    <div class="tool-icon" data-tool="butcher" title="Butchers">
-        <div class="icon-container">
-            <img class="icon" src="assets/images/butcher.png" alt="Butchers" />
-        </div>
-        <span class="tooltip">Butchers</span>
-    </div>
-</div>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-<div id="menu">
-    <div class="controls">
-        <button class="btn" id="clearAll">Clear all</button>
-        <button class="btn" id="exportBtn">Export JSON</button>
-        <button class="btn" id="importBtn">Import JSON</button>
-        <input id="importFile" type="file" accept="application/json" style="display: none" />
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #0d6e2e 0%, #1e3a8a 100%);
+        min-height: 100vh;
+        color: white;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem 0;
+      }
+
+      .header h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        color: var(--gold);
+      }
+
+      .header p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+
+      .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 2.5rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      }
+
+      .card h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        color: var(--gold);
+      }
+
+      .card p {
+        opacity: 0.8;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+      }
+
+      .card-icon {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        opacity: 0.9;
+      }
+
+      .btn {
+        background: var(--gold);
+        color: #1e3a8a;
+        padding: 12px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-block;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background: #e6c158;
+        transform: scale(1.05);
+      }
+
+      @media (max-width: 768px) {
+        .header h1 {
+          font-size: 2.5rem;
+        }
+
+        .cards-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .card {
+          padding: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>The Prophet of Mercy Maps</h1>
+        <p>
+          Explore the historical landscapes of Mecca through interactive maps
+          showcasing markets, wells, tribal settlements, and significant
+          locations from the time of Prophet Mohammed (PBUH)
+        </p>
+      </header>
+
+      <div class="cards-grid">
+        <a href="markets-wells.html" target="_blank" class="card">
+          <div class="card-icon">🏪</div>
+          <h2>MAKKAH'S MARKETS & WELLS</h2>
+          <p>
+            Discover the bustling commercial centers and vital water sources
+            that sustained ancient Mecca. Explore marketplaces, wells, and
+            trading hubs from the prophetic era.
+          </p>
+          <div class="btn">Explore Map</div>
+        </a>
+
+        <a href="qabeelah.html" target="_blank" class="card">
+          <div class="card-icon">🏠</div>
+          <h2>QABEELAH & HOUSES</h2>
+          <p>
+            Navigate the tribal settlements and significant households of Mecca.
+            Understand the social structure through interactive tribal
+            boundaries and historical residences.
+          </p>
+          <div class="btn">Explore Map</div>
+        </a>
+
+        <a href="modern-makkah.html" target="_blank" class="card">
+          <div class="card-icon">🏙️</div>
+          <h2>HOUSES IN MODERN MAKKAH</h2>
+          <p>
+            Compare historical locations with modern Makkah. See how significant
+            prophetic-era sites correspond to contemporary urban development.
+          </p>
+          <div class="btn">Explore Map</div>
+        </a>
+      </div>
     </div>
-</div>
-
-<div id="hint">
-    Click any placed marker to open its description or image.
-</div>
-<div id="saved" class="">Saved</div>
-
-<!-- Modal -->
-<div id="modal" aria-hidden="true">
-    <div id="modalContent" role="dialog" aria-modal="true">
-        <div id="modalHeader">
-            <div id="modalTitle"></div>
-            <button id="modalClose" aria-label="Close">✕</button>
-        </div>
-        <div id="modalBody"></div>
-    </div>
-</div>
-
-</body>
-
+  </body>
 </html>
